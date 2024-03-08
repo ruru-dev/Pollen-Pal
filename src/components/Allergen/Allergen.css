@@ -1,0 +1,40 @@
+.container-allergens {
+    margin-top: 60px;
+    max-height: 800px;
+    overflow-y: auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+
+.container-allergen {
+    height: 100px;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    color: white;
+    font-size: 30px;
+     /* border: 2px solid black; */
+}
+
+.container-allergen img {
+    width: 100px;
+    border-radius: 100px;
+}
+
+.allergen-name {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.allergen-level {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(226, 53, 53);
+}

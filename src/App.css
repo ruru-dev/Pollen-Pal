@@ -1,38 +1,66 @@
-.App {
+/* Importing google font style */
+@import url("https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap");
+
+body {
+  background-color: rgb(132, 173, 132);
+}
+
+/* Google font class */
+.happy-monkey-regular {
+  font-family: "Happy Monkey", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container-main {
+  width: 1000px;
+  margin: 0 auto 50px auto;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 700px auto;
+  grid-template-areas:
+    "title title"
+    "image image"
+    "city city"
+    "results results";
+  gap: 10px;
+}
+
+.grid-item {
+  border-radius: 20px;
+}
+
+.container-title {
+  grid-area: title;
+  /* background-color: white; */
+  color: rgb(255, 255, 255);
   text-align: center;
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container-image {
+  grid-area: image;
+  color: rgb(254, 254, 254);
+  text-align: center;
+  letter-spacing: 4px;
+  line-height: 40px;
+  font-size: 23px;
+  background-image: url("../public/images/pollen-pal-image-1.jpeg");
+  background-size: cover;
+  background-position-x: -100px;
+  background-repeat: no-repeat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-allergens {
+  grid-area: city;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  row-gap: 20px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-results {
+  grid-area: results;
 }
