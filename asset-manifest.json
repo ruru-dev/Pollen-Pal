@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Pollen-Pal/static/css/main.63e7ed83.css",
+    "main.js": "/Pollen-Pal/static/js/main.b808192e.js",
+    "static/js/453.31d3bb58.chunk.js": "/Pollen-Pal/static/js/453.31d3bb58.chunk.js",
+    "static/media/pollen-pal-image-1.jpeg": "/Pollen-Pal/static/media/pollen-pal-image-1.8956698f79f2634e0c1f.jpeg",
+    "index.html": "/Pollen-Pal/index.html",
+    "main.63e7ed83.css.map": "/Pollen-Pal/static/css/main.63e7ed83.css.map",
+    "main.b808192e.js.map": "/Pollen-Pal/static/js/main.b808192e.js.map",
+    "453.31d3bb58.chunk.js.map": "/Pollen-Pal/static/js/453.31d3bb58.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63e7ed83.css",
+    "static/js/main.b808192e.js"
+  ]
+}
